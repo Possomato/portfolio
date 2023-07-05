@@ -21,13 +21,13 @@
 }
 
 .bars2{
-  background-image: url(/assets/img/icons/bars2.svg);
+  background-image: url('../img/icons/bars2.svg');
 }
 
 .bars3{
-  background-image: url(/assets/img/icons/bars3.svg);
+  background-image: url('../img/icons/bars3.svg');
 }
 
 .bars4{
-  background-image: url(/assets/img/icons/bars4.svg);
+  background-image: url('../img/icons/bars4.svg');
 }
