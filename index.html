@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/acordeon.css">
+  <link rel="stylesheet" href="./assets/css/languages.css">
+  <link rel="stylesheet" href="./assets/css/projects.css">
+  <link rel="stylesheet" href="./assets/css/skills.css">
+  <link rel="stylesheet" href="./assets/css/exp.css">
+  <link rel="stylesheet" href="./assets/css/education.css">
+  <title>Portifólio</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <img src="" alt="foto perfil" id="profile.photo">
+  
+      <h1>Olá, eu sou
+        <br>
+        <span id="profile.name">carregando...</span>
+      </h1>
+  
+      <div id="information">
+        <p>
+          <span id="job" class="icons"></span>
+          <span id="profile.job">carregando...</span>
+        </p>
+        <p>
+          <span id="local" class="icons"></span>
+          <span id="profile.location">carregando...</span>
+        </p>
+        <p>
+          <span id="phone" class="icons"></span>
+          <a href="" target="_blank" id="profile.phone" id="profile.phoneZap">
+            carregando...
+          </a>
+        </p>
+        <p>
+          <span id="mail" class="icons"></span>
+          <a href="" target="_blank" id="profile.mail">
+            carregando...
+          </a>
+        </p>
+      </div>
+    </header>
+
+    <section class="acordeon botaoSkill">
+      <button class="trigger">
+        Skills
+        <span class="arrow"></span>
+      </button>
+      <div class="content">
+        <div id="habilidades">
+          <div id="habilidadesPro">
+            <h3>Ferramentas:</h3>
+            <div id="techs">
+              <ul id="profile.skills.hardSkills">
+              </ul>
+            </div>
+          </div>
+          <div class="habilidadesPes" id="profile.skills.softSkills">
+            <h3>Habilidades pessoais:</h3>
+            <ul>
+              <li>carregando...</li>
+              <li>carregando...</li>
+              <li>carregando...</li>
+            </ul>
+          </div>
+        </div>
+  
+        </div>
+    </section>
+
+    <section class="acordeon botaoEducacao">
+      <button class="trigger">
+        Educação
+        <span class="arrow"></span>
+      </button>
+      <div class="content">
+        <ul id="cursos">
+          <li class="curso">
+            <div class="localEdu">
+              <span class="book iconEdu"></span>
+              <span>SENAI<span class="nomeCompleto"> - Serviço Nacional de Aprendizagem Industrial</span></span>
+            </div>
+            <div class="dadosEdu">
+              <ul>
+                <li>Técnico em Mecatrônica</li>
+                <li class="tempoEdu">2018 - 2020<span class="check iconEdu"></span></li>
+              </ul>
+            </div>
+          </li>
+          <li class="curso">
+            <div class="localEdu">
+              <span class="book iconEdu"></span>
+              <span>UNIVESP<span class="nomeCompleto"> - Universidade Virtual do Estado de São Paulo</span></span>
+            </div>
+            <div class="dadosEdu">
+              <ul>
+                <li>Engenharia de Computação</li>
+                <li class="tempoEdu">2022 - 2027<span class="clock iconEdu"></span></li>
+              </ul>
+            </div>
+          </li>
+          <li class="curso">
+            <div class="localEdu">
+              <span class="book iconEdu"></span>
+              <span>UNINTER<span class="nomeCompleto"> - Centro Universitário Internacional</span></span>
+            </div>
+            <div class="dadosEdu">
+              <ul>
+                <li>Análise e Desenvolvimento de Sistemas</li>
+                <li class="tempoEdu">2023 - 2025<span class="clock iconEdu"></span></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon botaoIdioma">
+      <button class="trigger">
+        Idiomas
+        <span class="arrow"></span>
+      </button>
+      <div class="content">
+        <ul id="listaIdiomas">
+          <li class="idioma" ><span class="bars bars3"></span>Inglês</li>
+          <li class="idioma" ><span class="bars bars4"></span>Português</li>
+          <li class="idioma" ><span class="bars bars2"></span>Italiano</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon botaoProjeto">
+      <button class="trigger">
+        Projetos
+        <span class="arrow"></span>
+      </button>
+      <div class="content">
+        <ul class="listaProjetos" id="profile.portfolio">
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon botaoExperiencia">
+      <button class="trigger">
+        Experiência
+        <span class="arrow"></span>
+      </button>
+      <div class="content">
+        <ul class="experiencia" id="profile.professionalExperience">
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/js/acordeon.js"></script>
+  <script src="./assets/js/api.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
