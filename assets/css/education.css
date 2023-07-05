@@ -48,15 +48,15 @@
   width: 1.3rem;
   height: 1.3rem;
 
-  background-image: url('/javascript/Bootcamp-FormacaoJavaScriptDeveloper/modulo04/portifolio/assets/img/icons/book.svg');
+  background-image: url('/assets/img/icons/book.svg');
 }
 
 .check{
-  background-image: url('/javascript/Bootcamp-FormacaoJavaScriptDeveloper/modulo04/portifolio/assets/img/icons/check.svg');
+  background-image: url('/assets/img/icons/check.svg');
 }
 
 .clock{
-  background-image: url('/javascript/Bootcamp-FormacaoJavaScriptDeveloper/modulo04/portifolio/assets/img/icons/clock.svg');
+  background-image: url('/assets/img/icons/clock.svg');
 }
 
 @media only screen and (max-width: 768px){
