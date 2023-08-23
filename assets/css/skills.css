@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40vw;
+  width: min(500px, 50vw);
   height: 100%;
 }
 
