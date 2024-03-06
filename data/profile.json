@@ -52,6 +52,20 @@
       "concluded": false
     }
   ],
+  "languages":[
+    {
+      "language": "Inglês"
+      "level": "medio"
+    },
+    {
+      "language": "Português"
+      "level": "alto"
+    },
+    {
+      "language": "Italiano"
+      "level": "baixo"
+    },
+  ],
   "portfolio": [
     {
       "name": "Pokedex",
