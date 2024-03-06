@@ -32,6 +32,26 @@
       "Compromentimento com resultados"
     ]
   },
+  "education": [
+    {
+      "institution": "SENAI - Serviço Nacional de Aprendizagem Industrial",
+      "course": "Técnico em Mecatrônica",
+      "period": "2018 - 2020",
+      "concluded": true
+    },
+    {
+      "institution": "UNIVESP - Universidade Virtual do Estado de São Paulo",
+      "course": "Engenharia de Computação",
+      "period": "2022 - 2027",
+      "concluded": false
+    },
+    {
+      "institution": "UNINTER - Centro Universitário Internacional",
+      "course": "Análise e Desenvolvimento de Sistemas",
+      "period": "2023 - 2025",
+      "concluded": false
+    }
+  ],
   "portfolio": [
     {
       "name": "Pokedex",
