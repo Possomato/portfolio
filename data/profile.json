@@ -55,15 +55,15 @@
   "languages":[
     {
       "language": "Inglês",
-      "level": "medio"
+      "level": 3
     },
     {
       "language": "Português",
-      "level": "alto"
+      "level": 4
     },
     {
       "language": "Italiano",
-      "level": "baixo"
+      "level": 2
     }
   ],
   "portfolio": [
