@@ -54,16 +54,16 @@
   ],
   "languages":[
     {
-      "language": "Inglês"
-      "level": "medio"
+      "language": "Inglês",
+      "level": "medio",
     },
     {
-      "language": "Português"
-      "level": "alto"
+      "language": "Português",
+      "level": "alto",
     },
     {
-      "language": "Italiano"
-      "level": "baixo"
+      "language": "Italiano",
+      "level": "baixo",
     },
   ],
   "portfolio": [
